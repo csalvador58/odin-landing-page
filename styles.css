@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.body-section1 {
+    display: flex;
+}
+
+.header-logo {
+    width: 200px;
+}
+
+.main-img {
+    width: 500px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
