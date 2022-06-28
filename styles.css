@@ -4,7 +4,9 @@ body {
 
 }
 
-
+figure {
+    all: none;
+}
 
 /*-----------Header*/
 
@@ -26,7 +28,7 @@ body {
 }
 
 .header-logo {
-    width: 200px;
+    width: 150px;
 }
 
 a {
@@ -41,40 +43,80 @@ a {
 
 
 
-.bod-sec1 {
+.sec1 {
     display: flex;
     background-color: #1F2937;
     flex-direction: column;
  
 }
 
-.bod-sec1-main {
+.sec1-main {
     display: flex;
     justify-content: space-between;
     padding: 0 200px;
+    margin: 75px 0;
 }
 
-
-.main-img {
-    width: 500px;
-    justify-content: flex-end;
+.sec1-left {
+    min-width: 300px;
 }
 
-.bod-sec1 h1 {
+#main-img {
+    height: 250px;
+    margin-left: 25px;
+   
+}
+
+.text1, .text2 {
+    padding: 0 0 25px;
+    margin: 0;
+}
+
+.text1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
 
 } 
-.bod-sec1 p {
-    color: white;
+.text2 {
+    color: #e5e7eb;
+    font-size: 18px;
+ 
+}
+
+button {
+    border: none;
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 8px;
+    
 }
 
 
-
-
-
 /*-----------Section 2*/
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sec2-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.fig-container {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /*-----------Section 3*/
 
