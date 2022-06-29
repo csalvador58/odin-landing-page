@@ -100,8 +100,6 @@ button {
 .sec2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
@@ -116,8 +114,36 @@ button {
     justify-content: center;
 }
 
+.image {
+    border: 2px solid #3882F6;
+    width: 200px;
+}
 
 
 /*-----------Section 3*/
 
+.sec3 {
+    background-color: #e5e7eb;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 0 250px;
+
+}
+
+.text3 {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.text4 {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    padding-right: 100px;
+}
+
 /*-----------Section 4*/
+
