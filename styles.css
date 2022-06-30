@@ -1,11 +1,32 @@
 body {
     display: flex;
     flex-direction: column;
-
+    
 }
 
 figure {
     all: none;
+}
+
+.sec1, .sec2, .sec3, .sec4 {
+    min-height: 300px;
+}
+
+.bg-blue {
+    background-color: #3882F6;
+}
+
+.txt-blk {
+    color: #1F2937;
+}
+
+.txt-wht1 {
+    color: #F9FAF8;
+}
+
+.txt-wht2 {
+    color: #e5e7eb;
+    font-size: 14px;
 }
 
 /*-----------Header*/
@@ -33,14 +54,10 @@ figure {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
     padding-left: 20px;
 }
 
 /*-----------Section 1*/
-
-
 
 
 .sec1 {
@@ -73,25 +90,17 @@ a {
 }
 
 .text1 {
-    color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
 
 } 
-.text2 {
-    color: #e5e7eb;
-    font-size: 18px;
- 
-}
+
 
 button {
     border: none;
     width: 100px;
-    background-color: #3882F6;
-    color: #F9FAF8;
     border-radius: 5px;
     padding: 8px;
-    
 }
 
 
@@ -106,17 +115,17 @@ button {
 .sec2-text {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
 }
 
 .fig-container {
     display: flex;
     justify-content: center;
+    
 }
 
 .image {
     border: 2px solid #3882F6;
-    width: 200px;
+    width: auto;
 }
 
 
@@ -135,7 +144,6 @@ button {
     display: flex;
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
 }
 
 .text4 {
@@ -147,3 +155,28 @@ button {
 
 /*-----------Section 4*/
 
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec4-text {
+    display: flex;
+    width: 60%;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    gap: 50px;
+    
+}
+
+
+
+.button2 {
+    border: 2px solid #F9FAF8;
+    height: 10%;
+   
+}
