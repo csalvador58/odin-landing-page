@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
     
 }
 
@@ -14,6 +15,10 @@ figure {
 
 .bg-blue {
     background-color: #3882F6;
+}
+
+.bg-blk {
+    background-color: #1F2937;
 }
 
 .txt-blk {
@@ -32,7 +37,6 @@ figure {
 /*-----------Header*/
 
 .header {
-    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     padding: 15px 200px;
@@ -62,7 +66,6 @@ a {
 
 .sec1 {
     display: flex;
-    background-color: #1F2937;
     flex-direction: column;
  
 }
@@ -173,10 +176,14 @@ button {
     
 }
 
-
-
 .button2 {
     border: 2px solid #F9FAF8;
-    height: 10%;
-   
+    height: 10%;  
+}
+
+/*-----------Footer*/
+
+.footer p {
+    text-align: center;
+    padding: 10px 0;
 }
