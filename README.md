@@ -55,13 +55,6 @@ Web browser and code editor.
 
 <br/>
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<br/>
-
 <!-- CONTACT -->
 ## Contact
 
